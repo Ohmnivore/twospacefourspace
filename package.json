@@ -1,0 +1,47 @@
+{
+    "name": "twospacefourspace",
+    "displayName": "twospacefourspace",
+    "description": "Converts current working document between two-space indentation and four-space indentation.",
+    "version": "0.1.0",
+    "publisher": "Ohmnivore",
+    "license": "Do what you want",
+    "categories": [
+        "Other"
+    ],
+    "keywords": [
+        "two",
+        "four",
+        "space",
+        "indentation"
+    ],
+    "preview": true,
+    "engines": {
+        "vscode": "^1.0.0"
+    },
+    "activationEvents": [
+        "onCommand:twospacefourspace.twoToFour",
+        "onCommand:twospacefourspace.fourToTwo"
+    ],
+    "main": "./out/src/extension",
+    "contributes": {
+        "commands": [
+            {
+                "command": "twospacefourspace.twoToFour",
+                "title": "Two to four (indentation)"
+            },
+            {
+                "command": "twospacefourspace.fourToTwo",
+                "title": "Four to two (indentation)"
+            }
+        ]
+    },
+    "scripts": {
+        "vscode:prepublish": "node ./node_modules/vscode/bin/compile",
+        "compile": "node ./node_modules/vscode/bin/compile -watch -p ./",
+        "postinstall": "node ./node_modules/vscode/bin/install"
+    },
+    "devDependencies": {
+        "typescript": "^1.8.5",
+        "vscode": "^0.11.0"
+    }
+}
