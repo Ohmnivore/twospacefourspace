@@ -1,8 +1,8 @@
 {
     "name": "twospacefourspace",
     "displayName": "twospacefourspace",
-    "description": "Converts current working document between two-space indentation and four-space indentation.",
-    "version": "0.1.0",
+    "description": "This is a four-space and two-space indentation interconverter.",
+    "version": "0.2.0",
     "publisher": "Ohmnivore",
     "license": "Do what you want",
     "categories": [
@@ -12,9 +12,17 @@
         "two",
         "four",
         "space",
-        "indentation"
+        "indentation",
+        "indent"
     ],
     "preview": true,
+    "repository": {
+        "type": "git",
+        "url": "https://github.com/Ohmnivore/twospacefourspace.git"
+    },
+    "bugs": {
+        "url": "https://github.com/Ohmnivore/twospacefourspace.git"
+    },
     "engines": {
         "vscode": "^1.0.0"
     },
