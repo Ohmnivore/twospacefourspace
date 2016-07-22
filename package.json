@@ -2,7 +2,7 @@
     "name": "twospacefourspace",
     "displayName": "twospacefourspace",
     "description": "This is a four-space and two-space indentation interconverter.",
-    "version": "0.2.0",
+    "version": "0.2.1",
     "publisher": "Ohmnivore",
     "license": "Do what you want",
     "categories": [
@@ -16,6 +16,11 @@
         "indent"
     ],
     "preview": true,
+    "icon": "icon.png",
+    "galleryBanner": {
+        "color": "#6daa2c",
+        "theme": "dark"
+    },
     "repository": {
         "type": "git",
         "url": "https://github.com/Ohmnivore/twospacefourspace.git"
